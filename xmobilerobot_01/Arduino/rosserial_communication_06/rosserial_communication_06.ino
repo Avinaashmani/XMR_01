@@ -280,10 +280,7 @@ void arc (int pwm_r, int pwm_l)
 void read_encoder_a ()
 {
   int i = digitalRead(enc_a2);
-  while (i !=0)
-  {
-    
-  }
+  
   if (i > 0)
   { 
     position_a--;
